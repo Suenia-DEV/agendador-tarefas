@@ -1,15 +1,11 @@
 package com.suenia.Agendadortarefas.infrastructure.security;
 
 
-
-
 import com.suenia.Agendadortarefas.business.dto.UsuarioDTO;
 import com.suenia.Agendadortarefas.infrastructure.client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
